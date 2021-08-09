@@ -19,7 +19,7 @@ while True:
 
     play_again = input("Would you like to play another round?").lower()
 
-    if play_again != "yes":
+    if play_again != "yes" or "Yes" or "y":
         break
 
 print("Bye!")
